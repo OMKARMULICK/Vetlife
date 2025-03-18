@@ -27,17 +27,23 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  
+  <!-- =======================================================
+  * Template Name: BizLand
+  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body class="index-page">
+<body class="service-details-page">
 
   <header id="header" class="header sticky-top">
 
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">zovetix@gmail.com</a></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">vetlife@gmail.com</a></i>
           <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 93260 87284</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
@@ -60,15 +66,8 @@
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="dropdown"><a href="contract.html"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="contract.html">Contract Manufacturing</a></li>
-                <li><a href="#">Custom Formulation</a></li>
-                <li><a href="#">Private Labeling</a></li>
-                <li><a href="#">Export Services</a></li>
-              </ul>
-            </li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown"><a href="services.html"><span>Services</span></a></li>
             <li><a href="products.html">Products</a></li>
             <li><a href="#contact">Contact Us</a></li>
             <li><a href="#contact">Brochure</a></li>
@@ -84,70 +83,74 @@
 
   <main class="main">
 
-  
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Service Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Service Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
 
-    
-
-    <!-- About Section -->
-    <section id="about" class="about section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p><span>Contract</span> <span class="description-title">Manufacturing</span></p>
-      </div><!-- End Section Title -->
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
 
       <div class="container">
 
-        <div class="row gy-3">
+        <div class="row gy-4">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" alt="" class="img-fluid">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="services-list">
+              <a href="services.html" class="active">Contract Manufacturing</a>
+              <a href="custom.html">Custom Formulation</a>
+              <a href="private.html">Private Labeling</a>
+              <a href="export.html">Export Services</a>
+              
+            </div>
+
+
           </div>
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="about-content ps-0 ps-lg-3">
-              <h4>Reliable Veterinary Contract Manufacturing for Quality & Compliance</h4>
-              <h6>We manufacture high-quality veterinary pharmaceuticals under GMP and ISO-certified standards. Our facilities ensure safety, consistency, and efficacy in every batch.</h6>
-              <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
-              </p>
-              <ul>
-                <li>
-                  <i class="bi bi-shield-check"></i>
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+            <h4>Reliable Veterinary Contract Manufacturing for Quality & Compliance</h4>
+              <h6>We manufacture high-quality veterinary pharmaceuticals under GMP and ISO-certified standards. Our facilities ensure safety, consistency, and efficacy in every batch.</h6><br>
+            <ul>
+              <li>
+                  
                   <div>
+                    <i class="bi bi-shield-check"></i><br>
                     <h4>Quality-Assured Production</h4>
                     <p>Every product is made under strict quality control to meet global standards for safety and effectiveness.</p>
                   </div>
-                </li>
-                <li>
-                  <i class="bi bi-graph-up"></i>
+                  </li>
+                  <li>
                   <div>
+                    <i class="bi bi-graph-up"></i><br>
                     <h4>Scalable Manufacturing Solutions</h4>
                     <p>Flexible production options, from small batches to large-scale supply, to match your business needs.<br><br>
                     Our expert team handles everything from formulation to packaging, ensuring smooth production and timely delivery. We focus on precision, so you can focus on growing your business.<br><br>
                     Contact us today to discuss your contract manufacturing needs!</p>
                   </div>
-
                 </li>
-              </ul>
-                  <a href="index.html#contact" type="button" style="background-color:#8AC73E; color: white;" class="btn">Contact Us</a>
-            </div>
-
+              
+            </ul>
+                <a href="index.html#contact" type="button" style="background-color:#8AC73E; color: white;" class="btn">Contact Us</a>
           </div>
+
         </div>
 
       </div>
 
-    </section><!-- /About Section -->
-
-
-    
+    </section><!-- /Service Details Section -->
 
   </main>
 
- <footer id="footer" class="footer">
+  <footer id="footer" class="footer">
 
     
 
