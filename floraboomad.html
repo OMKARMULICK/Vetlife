@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Vetlife Innovations</title>
+  <title>Vetlife Innovations - Floraboom AD3 Granules</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -36,11 +36,11 @@
   ======================================================== -->
 </head>
 
-<body class="service-details-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header sticky-top">
 
-    <div class="topbar d-flex align-items-center">
+    <<div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
           <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">vetlife@gmail.com</a></i>
@@ -93,67 +93,84 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Service Details</h1>
+        <!-- <h1 class="mb-2 mb-lg-0">Portfolio Details</h1> -->
         <nav class="breadcrumbs">
-          <ol>
+          <!--<ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
-          </ol>
+            <li class="current">Portfolio Details</li>
+          </ol> -->
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="services.html">Contract Manufacturing</a>
-              <a href="custom.html" class="active">Custom Formulation</a>
-              <a href="private.html">Private Labeling</a>
-              <a href="export.html">Export Services</a>
-              
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/app-1.jpg" alt="">
+                </div>
+
+                
+
+              </div>
+              <div class="swiper-pagination"></div>
             </div>
-
-
           </div>
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/custom.jpg" alt="" class="img-fluid services-img">
-            <h4>Veterinary Formulations Designed for Specific Needs</h4>
-              <h6>We create scientifically developed formulations to meet livestock, poultry, and aquaculture health requirements with precision and effectiveness.</h6><br>
-            <ul>
-              <li>
-                  
-                  <div>
-                    <i class="bi bi-lightbulb"></i><br>
-                    <h4> Research-Driven Innovation</h4>
-                    <p>Every formulation is backed by science to address specific animal health challenges.</p>
-                  </div>
-                  </li>
-                  <li>
-                  <div>
-                    <i class="bi bi-bullseye"></i><br>
-                    <h4>Precision & Effectiveness</h4>
-                    <p> Ingredient combinations are carefully selected for maximum impact and safety.<br><br>
-                    We collaborate with businesses to create solutions that align with market demands. Our focus is on delivering high-performance formulations that ensure better results.<br><br>
-                    Let’s create a solution that meets your specific needs!</p>
-                  </div>
-                </li>
-              
-            </ul>
-                <a href="index.html#contact" type="button" style="background-color:#8AC73E; color: white;" class="btn">Contact Us</a>
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Floraboom AD3 Granules</h3>
+              <ul>
+                <li><strong>Category :</strong>Floraboom AD3 Granules Product for Veterinary</li>
+                <li><strong>Composition :</strong>
+                  <p>Each 100gm provides:<br>
+                    Live Yeast Culture .......... 5 gm<br>
+                    Live Lactobacillus<br>
+                    Sporongenes Culture .......... 30 million C.F.U<br>
+                    Amino Acids .......... 2.5 gm<br>
+                    Liver Extract .......... 2.5 gm<br>
+                    Alpha Amylase .......... 0.5 gm<br>
+                    Vitamin A .......... 10,00,000 I.U.<br>
+                    Vitamin D3 .......... 1,00,000 I.U.<br></p></li>
+
+                <li><strong>Packaging :</strong>1Kg, 5Kg, 10Kg, 20Kg, 25Kg.<br><br>
+                    Packaging Available in Both Flexible and Rigid Format.</li>
+                
+              </ul>
+            </div>
+           
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Service Details Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
@@ -178,10 +195,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services.html">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="terms.html">Terms & Conditions</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="privacy.html">Privacy Policy</a></li>
           </ul>
         </div>
 
