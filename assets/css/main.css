@@ -1955,3 +1955,8 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+#about-us-img {
+  height: 8%;
+  width: 8%;
+}
