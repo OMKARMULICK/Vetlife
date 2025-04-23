@@ -23,6 +23,7 @@
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #222222; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #8AC73E; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accentbtn-color: #1D2962;
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -850,7 +851,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 85%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -882,7 +883,7 @@ section,
 
 .hero .btn-get-started {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: var(--accentbtn-color);
   font-family: var(--heading-font);
   font-weight: 400;
   font-size: 16px;
